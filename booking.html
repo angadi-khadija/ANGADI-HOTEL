@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#183c34">
+  <title>Make an Enquiry | Angadi Hotel</title><link rel="stylesheet" href="css/site.css"><script src="js/site.js" defer></script>
+</head>
+<body>
+  <header class="site-header"><a class="brand" href="index.html"><span class="brand-mark">A</span><span>ANGADI <small>HOTEL &amp; RETREAT</small></span></a><button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button><nav class="site-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="rooms.html">Rooms &amp; suites</a><a class="active" href="booking.html">Reservations</a><a class="nav-staff" href="login.php">Admin sign in <span>↗</span></a></nav></header>
+  <main class="booking-page">
+    <section class="booking-intro"><p class="eyebrow">LET'S PLAN SOMETHING LOVELY</p><h1>Your stay<br><em>starts here.</em></h1><p>Tell us a little about the visit you're dreaming of. Our team would be delighted to help.</p><div class="booking-note"><span>✳</span><p>This is a frontend-only demonstration. Your enquiry stays in this browser and isn't sent to the hotel.</p></div></section>
+    <section class="booking-form-wrap"><form class="booking-form" id="booking-form">
+      <div class="form-title"><span class="eyebrow">A FEW DETAILS</span><h2>Stay enquiry</h2></div>
+      <label>Your name<input name="name" autocomplete="name" required placeholder="Full name"></label>
+      <label>Email address<input name="email" type="email" autocomplete="email" required placeholder="you@example.com"></label>
+      <div class="form-row"><label>Check in<input name="checkin" type="date" required></label><label>Check out<input name="checkout" type="date" required></label></div>
+      <div class="form-row"><label>Room preference<select name="room" required><option value="">Choose a room</option><option>Garden Room</option><option>Courtyard Suite</option><option>Angadi Residence</option></select></label><label>Guests<select name="guests"><option>1 guest</option><option selected>2 guests</option><option>3 guests</option><option>4 guests</option></select></label></div>
+      <label>Anything else we should know?<textarea name="note" rows="4" placeholder="Special requests, questions, or a note for our team"></textarea></label>
+      <button class="button button-dark button-wide" type="submit">Save demo enquiry <span>→</span></button>
+      <p class="form-hint">No payment details required. This demo does not contact the hotel.</p>
+    </form><div class="form-confirmation" id="booking-confirmation" role="status" hidden></div></section>
+  </main>
+  <footer class="site-footer"><a class="brand brand-light" href="index.html"><span class="brand-mark">A</span><span>ANGADI <small>HOTEL &amp; RETREAT</small></span></a><p>Thoughtful stays. Lasting memories.</p><div><a href="index.html">Home</a><a href="rooms.html">Rooms</a><a href="login.php">Admin sign in</a></div><small>© 2026 Angadi Hotel. Frontend concept only.</small></footer>
+</body>
+</html>
